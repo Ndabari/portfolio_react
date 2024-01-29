@@ -1,3 +1,27 @@
+# QnA
+1. **NPM**: Node Package Manager is a package manager for JavaScript, used to install and manage dependencies ie. libraries, tools for Node.js projects.
+
+2. **SPA**: Single Page Application is a web application that loads a single HTML page and only updates the section where content is changing as the user interacts with the application. This can achieved using js frameworks.
+
+3. **Event Loop**: The event loop allows asynchronous operations to run without blocking other operations. 
+
+4. **export x vs. export default x**: `export x` is used to export a specific variable, function, or object from a module, while `export default x` is used to export a single "default" entity from a module. When importing, you use `{}` for named exports and no braces for default exports.
+
+5. **className vs. class in React**: React replaces `class` with `className` in JSX to avoid conflicts since `class` is a reserved keyword in JavaScript used for defining classes.
+
+6. **Incorrect button onClick**: This will immediately call the function when the component renders, instead of waiting for a click. This will cause the counter to increment uncontrollably.
+
+7. **Object deconstruction in React**: Object deconstruction is a feature in JavaScript that allows you to extract multiple properties from an object and assign them to variables. It could be used to extract props or state variables for easier access and readability.
+
+8. **Using HTML and JavaScript in React Component**: In React components, you can write HTML-like syntax (JSX) to describe the structure of the UI. JavaScript expressions (including function calls) can be embedded within JSX using curly braces `{}`. React's JSX compiler translates this to regular JavaScript behind the scenes.
+
+9. **Async/Await**: Javascript is synchronous in nature meaning it executes each line of of code one after another, if a delay occurs the whole execution has to wait for it to be resolved to continue. Async/await allows asynchronous code to work in a synchronous-like manner. It allows you to write asynchronous code that looks synchronous, making it easier to understand and maintain.
+
+
+10. **Promise**: A Promise is an object representing the eventual completion or failure of an asynchronous operation. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
