@@ -1,5 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+(function () {
+  [...document.querySelectorAll(".control")].forEach(button => {
+      button.addEventListener("click", function() {
+          document.querySelector(".active-btn").classList.remove("active-btn");
+          this.classList.add("active-btn");
+          document.querySelector(".active").classList.remove("active");
+          document.getElementById(button.dataset.id).classList.add("active");
+      })
+  });
+
+})();
 
 function App() {
   return (
@@ -203,7 +214,7 @@ function App() {
         </div>
     </div>
     
-    {/* <script src="app.js"></script> */}
+    <script src="app.js"></script>
 </div>
   );
 }
